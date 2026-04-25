@@ -1,0 +1,7 @@
+file = open("notes.txt", "r")
+text = file.read()
+file.seek(0)
+lines = file.readlines()
+print(len(text))
+print(len(lines))
+file.close()
